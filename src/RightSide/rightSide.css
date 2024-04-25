@@ -1,0 +1,52 @@
+.headerInRightSide{
+   display: grid;
+   grid-template-columns: 1fr;
+   font-size: 30px;
+   font-weight: 800;
+   padding-left: 20%;
+   margin-top: 60px;
+}
+
+.one{
+   padding-left: 90px;
+}
+
+.three{
+   padding-left: 140px;
+}
+
+
+.accountlogin{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   font-weight: 200;
+   margin-top: 30px;
+}
+
+.google{
+   display: grid;
+   grid-template-columns: 35px 300px;
+   font-size:18px;
+   margin-left: 250px;
+   border: solid 1px;
+   padding: 15px;
+   width: 210px;
+   border-radius: 36px;
+   border-color: rgb(203, 203, 203);
+   background-color: rgb(251, 251, 251);
+}
+
+
+.vk{
+   display: grid;
+   grid-template-columns: 35px 300px;
+   font-size:18px;
+   border: solid 1px;
+   padding: 15px;
+   width: 210px;
+   border-radius: 36px;
+   border-color: rgb(203, 203, 203);
+   background-color: rgb(251, 251, 251);
+   margin-left: 50px;
+}
+
