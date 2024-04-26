@@ -31,7 +31,7 @@ export default function Inputs (){
             <div className="TI">
                <p className="textPassword text">Пароль</p>
                <input type={on == true? `text` : `password`} className="inputPassword input" />
-               <IoEyeOutline onClick={sw} size={20}/>
+               <IoEyeOutline onClick={sw} size={20} className="iconEye"/>
             </div>
 
 
