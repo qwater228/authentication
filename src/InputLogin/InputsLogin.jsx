@@ -11,15 +11,18 @@ import { Link } from "react-router-dom";
 export default function Inputs (){
    
    const [on, setOff] = useState(false)
+   const [clickedCheckBox, setClickedCheckBox] = useState(false)
    
-   const sw = ()=>{
-      if (on == false){
-         return setOff(true)
-      }else if(on == true){
-         return setOff(false)
-      }
+   const sw = () => setOff(prev => !prev);
 
+   const handleClickCheckBox = () => {
+      if (clickedCheckBox === false) {
+         alert("нажми на кнопку!!!")
+      }
    }
+   
+   const changeCheckBox = () => setClickedCheckBox(prev => !prev);
+   
    return (
       <>
          <div className="inputs">
@@ -29,7 +32,7 @@ export default function Inputs (){
             </div>
             <div className="TI">
                <p className="textPassword text">Пароль</p>
-               <input type={on == true? `text` : `password`} className="inputPassword input" />
+               <input type={on ? `text` : `password`} className="inputPassword input" />
                <IoEyeOutline onClick={sw} size={20} className="iconEye"/>
             </div>
 
@@ -37,10 +40,16 @@ export default function Inputs (){
 
             <div className="CHB">
                <div className="divCheckbox">
-                  <input type="checkbox" name="" id="" className="checkbox"/>
+                  <input type="checkbox" 
+                  value={clickedCheckBox} 
+                  onChange={changeCheckBox}
+                  name="" 
+                  id="" 
+                  className="checkbox" 
+                  />
                   <p className="condition">Я принимаю условие соглашение </p>
                </div>
-               <div className="enter">Войти</div>
+               <div className="enter" onClick={handleClickCheckBox}>Войти</div>
             </div>
                <p className="linkOfLogin">Еще нет аккаунта?<Link to="/" className="link">РЕГИСТРИРУЙТЕСЬ ПРЯМО СЕЙЧАС</Link></p>
          </div>
