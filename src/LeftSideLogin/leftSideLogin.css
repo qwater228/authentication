@@ -1,0 +1,30 @@
+.leftSide{
+   background-image: url(src/photo_2024-04-25_21-10-44.jpg);
+}
+
+.headerInLeftSide{
+   display: grid;
+   grid-template-columns: 1fr;
+   font-size: 40px;
+   font-weight: 800;
+   padding-bottom: 60px;
+}
+
+.textLeftSide{
+   color: white;
+   padding-left: 27%;
+   margin-top: 730px;
+   width: 500px;
+}
+
+.first{
+   margin-left: 30px;
+}
+
+.secondPart{
+   margin-left: 90px;
+}
+
+.discription{
+   font-weight: 200;
+}

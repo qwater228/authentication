@@ -1,6 +1,6 @@
-import './leftSide.css'
+import './leftSideLogin.css'
 
-export default function LeftSide(){
+export default function LeftSideLogin(){
 
    return(
       <>

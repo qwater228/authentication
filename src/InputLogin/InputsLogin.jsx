@@ -1,10 +1,11 @@
 import { useState } from "react";
-import "./inputs.css"
+import "./inputsLogin.css"
+
+
+import { IoEyeOutline } from "react-icons/io5";
 
 
 import { Link } from "react-router-dom";
-
-import { IoEyeOutline } from "react-icons/io5";
 
 
 export default function Inputs (){
@@ -22,10 +23,6 @@ export default function Inputs (){
    return (
       <>
          <div className="inputs">
-            <div className="TI">
-               <p className="textName text">Имя</p>
-               <input type="text" className="inputName input"/>
-            </div>
             <div className="TI">
                <p className="textEmail text">Email</p>
                <input type="text"  className="inputEmail input"/>
@@ -45,7 +42,7 @@ export default function Inputs (){
                </div>
                <div className="enter">Войти</div>
             </div>
-               <p className="linkOfLogin">у вас есть аккаунт?<Link to="/login" className="link">ПЕРЕХОДИТЕ ПРЯМО СЕЙЧАС</Link></p>
+               <p className="linkOfLogin">Еще нет аккаунта?<Link to="/" className="link">РЕГИСТРИРУЙТЕСЬ ПРЯМО СЕЙЧАС</Link></p>
          </div>
       </>
    )

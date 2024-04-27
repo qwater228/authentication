@@ -1,0 +1,91 @@
+.inputs{
+   margin-left: 240px;
+   margin-top: 100px;
+}
+
+.input{
+   height: 40px;
+   width: 540px;
+   border: none;
+   border-bottom: solid 1px rgb(200, 180, 255);
+   font-size: 20px;
+   outline: none;
+}
+
+input input{
+   border-bottom: 3px;
+}
+
+.TI{
+   margin-bottom: 50px;
+}
+
+.text{
+   padding-bottom: 10px;
+   font-weight: 300;
+   margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.CHB{
+   display: grid;
+   grid-template-columns: 44% 56%;
+}
+
+.divCheckbox{
+   display: grid;
+   grid-template-columns: 7% 93%;
+   font-size: 15px;
+}
+
+
+
+.enter{
+   display: flex;
+   justify-content: center;
+   font-size: 30px;
+   font-weight: 700;
+   background-color: rgb(127, 110, 255);
+   color: white;
+   padding: 15px;
+   border: solid 1px rgb(200, 180, 255);
+   width: 200px;
+   border-radius: 50px;
+}
+
+
+
+.condition{
+   margin-top: 25px;
+   padding-left: 5px;
+}
+
+
+
+
+
+
+.linkOfLogin{
+   font-weight: 600;
+   padding-top: 50px;
+   margin-left: 90px;
+}
+
+.link{
+   color: black;
+}
