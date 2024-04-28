@@ -1,5 +1,6 @@
 .leftSide{
    background-image: url(src/photo_2024-04-25_21-10-44.jpg);
+   background-size: cover;
 }
 
 .headerInLeftSide{
@@ -13,7 +14,7 @@
 .textLeftSide{
    color: white;
    padding-left: 27%;
-   margin-top: 730px;
+   margin-top: 19px;
    width: 500px;
 }
 
@@ -27,4 +28,12 @@
 
 .discription{
    font-weight: 200;
+}
+
+.boxLogoAndImage {
+   display: flex;
+   flex-direction: column;
+   gap: 76px 0;
+   align-items: center;
+   padding-top: 80px;
 }
